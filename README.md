@@ -1,6 +1,6 @@
-# FastAPI Bookings API
+# FastAPI 2FA seed phrase
 
-This is a simple FastAPI application for 2FA authentication and QR code generation.
+This is a simple FastAPI application for 2FA authentication with seed phrase and QR code generation.
 
 ## Setup
 
