@@ -35,60 +35,16 @@ This is a simple FastAPI application for 2FA authentication and QR code generati
 
 ## Dependencies
 
--fastapi
--uvicorn
--pyotp
--qrcode
--pydantic
--firebase-admin
--Pillow
--qrcode[pil]
--svg2png
--cairosvg
--mnemonic
-
-## License
-
-This project is licensed under the MIT License.
-
-## Setup
-
-1. Clone the repository:
-
-   ```sh
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-
-2. Create a virtual environment and activate it:
-
-   ```sh
-   virtualenv virtualenv
-   source virtualenv/bin/activate # On Windows use `virtualenv\Scripts\activate`
-   # OR
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. Install the dependencies:
-
-   ```sh
-   pip3 install -r requirements.txt
-   ```
-
-4. Run the FastAPI application:
-
-   ```sh
-   uvicorn main:app --reload
-   ```
-
-## Dependencies
-
-- FastAPI
-- Uvicorn
-- Stripe
-- Firebase Admin SDK
-- bcrypt
+- fastapi
+- uvicorn
+- pyotp
+- qrcode
+- pydantic
+- Pillow
+- qrcode[pil]
+- svg2png
+- cairosvg
+- mnemonic
 
 ## License
 
