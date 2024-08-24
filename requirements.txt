@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pyotp
+qrcode
+pydantic
+firebase-admin
+Pillow
+qrcode[pil]
+svg2png
+cairosvg
+mnemonic
